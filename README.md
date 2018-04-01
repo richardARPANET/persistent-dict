@@ -1,5 +1,9 @@
 # persistent-dict
 
+[![PyPI](https://img.shields.io/pypi/v/persistent-dict.svg)](https://pypi.python.org/pypi/persistent-dict)
+[![Python Versions](https://img.shields.io/pypi/pyversions/persistent-dict.svg)](https://pypi.python.org/pypi/persistent-dict)
+[![Build Status](https://travis-ci.org/richardasaurus/persistent-dict.png?branch=master)](https://travis-ci.org/richardasaurus/persistent-dict)
+
 A Python Dict which stores data in Redis.
 
 You can use ``RedisDict`` exactly like a normal ``dict``. As long as all the keys and values in it are [picklable](https://docs.python.org/3/library/pickle.html).
