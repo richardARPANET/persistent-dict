@@ -1,3 +1,6 @@
+**NOTICE**: If you're reading this on GitHub.com please be aware this is a mirror of the primary remote located at https://code.richard.do/explore/projects.
+Please direct issues and pull requests there.
+
 # persistent-dict
 
 [![PyPI](https://img.shields.io/pypi/v/persistent-dict.svg)](https://pypi.python.org/pypi/persistent-dict)
