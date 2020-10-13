@@ -44,6 +44,17 @@ def test_persist_different_types_of_data(redisdict, key, val):
             raise
     assert list(redisdict.keys()) == [key]
     assert list(redisdict.values()) == [val]
+    assert len(redisdict) == 1
+
+
+def test_append(redisdict):
+    redisdict['key'] = []
+    redisdict['key'].append(1)
+    redisdict['key'].append(2)
+    redisdict['key'].append(3)
+
+    assert len(redisdict['key']) == 3
+    assert redisdict == {'key': [1, 2, 3]}
 
 
 def test_keys(redisdict):
